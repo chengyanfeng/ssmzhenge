@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.apply{ 
+       width:1366px; 
+	   height:850px; 
+	   left:50%; 
+	   margin-left: -683px;  
+	   float:left; 
+	   margin:0 auto;
+	   }
+.apply-way{ width:900px;height:850px; text-align:center; margin:0 auto;}
+.apply-t{ float:left; width:900px; height:100px; border-bottom: #C5C5C5 solid 1px;}
+.apply-t h4{margin:70px 0 0 0; float:left; font-size:18px;color:#575757; }
+.apply-t>p{margin:77px 20px 0 0; float:right; font-size:14px;letter-spacing:1px; color:#575757;}
+#from { float:left; margin-top:20px;width:900px;height:650px; border:0; }
+#from ul{  width:700px;height:600px;text-align:center; margin:0 auto;}
+#from ul li{ width:500px; height:70px;text-align:center; margin: 10px auto;}
+.area>label{
+	 float:left;
+	 font-size:18px;
+	 color:#575757;
+	 display:block;
+	 line-height:80px;
+	 width:130px;
+	 height:80px;
+	   }
+.area #province ,#city, #rtl,#projects,#people,#iphone,#inputCode{
+	  float:left;
+	  display:block;
+	  line-height:80px; 
+      margin:25px 40px;
+	  width:200px; 
+	  height:30px; 
+	  background-color:#E6E6E6;
+	  border:0;
+	  border:1px solid  #CCC;
+	  outline: none;
+	  color:#575757;
+	  font-size:16px;
+}
+.area #province ,#city,#inputCode{ width:100px;}
+#button1{
+	width:150px; 
+	height:35px; 
+	background-color:#06F; 
+	border:0;
+	color: #FFF;
+	font-size:16px; 
+	margin:20px 0 0 -340px; 
+	cursor:pointer; 
+	}			
+#button1:hover{ border-top: 1px solid #999;border-left: 1px solid #999;}
+#city{ margin:25px -30px;}				   
+	
+				   
+.code,.change{
+	 float:left;
+     display:block; 
+	 cursor: pointer; 
+	 width:80px; 
+	 height:30px; 
+	 line-height:30px; 
+	 margin:25px 0 0 -25px;
+	 color: #009;
+	 font-style: italic;
+	 }				   
+.change{ float:left; margin-left:20px; width:100px;}				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   

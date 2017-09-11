@@ -12,7 +12,9 @@
     $(document).ready(function(){
     $("#button1").click(function(){
         alert("wokao");
-        $.get("/company/getcompanyajax",function(data,status){
+        $.post("/company/getcompanyajax",
+                {name:"chengyanfeng",age:12},
+                function(data,status){
             alert("数据: " + data + "\n状态: " + status);
         });
     });

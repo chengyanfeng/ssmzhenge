@@ -1,6 +1,8 @@
 package main.cheng.controller;
 
+import main.cheng.beans.user;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -24,11 +26,12 @@ public class companyControll {
 
     }
     @ResponseBody
-    @RequestMapping(value = "/getcompanyajax" ,method = RequestMethod.GET)
-    public String  get1company(){
+    @RequestMapping(value = "/getcompanyajax" ,method = RequestMethod.POST)
+    public String  get1company(@RequestBody user user){
         System.out.print("这是ajax");
+        System.out.print(user.toString());
 
-        return "123213213";
+        return user.toString();
 
     }
 
